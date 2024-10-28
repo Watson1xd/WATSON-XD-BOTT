@@ -76,7 +76,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["WATSON-XD", "safari", "3.3"],
+            browser: ["WATSON-XD-BOT", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
